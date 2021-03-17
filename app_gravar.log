@@ -1,0 +1,90 @@
+2021-03-17 09:39:10,692:221 - Starting new HTTP connection (1): 127.0.0.1:8080
+2021-03-17 09:39:10,700:428 - http://127.0.0.1:8080 "GET /api/app/sections/ HTTP/1.1" 200 538
+2021-03-17 09:39:10,701:221 - Starting new HTTP connection (1): 127.0.0.1:8080
+2021-03-17 09:39:10,717:428 - http://127.0.0.1:8080 "GET /api/app/sections/12/subnets/ HTTP/1.1" 200 4942
+2021-03-17 09:39:10,719:221 - Starting new HTTP connection (1): 127.0.0.1:8080
+2021-03-17 09:39:10,737:428 - http://127.0.0.1:8080 "GET /api/app/sections/11/subnets/ HTTP/1.1" 200 6351
+2021-03-17 09:39:10,738:71 - no differences between db ipam and mongo!
+2021-03-17 09:39:10,738:94 - None action matched with consts
+2021-03-17 09:39:40,724:221 - Starting new HTTP connection (1): 127.0.0.1:8080
+2021-03-17 09:39:40,732:428 - http://127.0.0.1:8080 "GET /api/app/sections/ HTTP/1.1" 200 538
+2021-03-17 09:39:40,733:221 - Starting new HTTP connection (1): 127.0.0.1:8080
+2021-03-17 09:39:40,748:428 - http://127.0.0.1:8080 "GET /api/app/sections/12/subnets/ HTTP/1.1" 200 4942
+2021-03-17 09:39:40,750:221 - Starting new HTTP connection (1): 127.0.0.1:8080
+2021-03-17 09:39:40,770:428 - http://127.0.0.1:8080 "GET /api/app/sections/11/subnets/ HTTP/1.1" 200 6351
+2021-03-17 09:39:40,771:71 - no differences between db ipam and mongo!
+2021-03-17 09:39:40,771:94 - None action matched with consts
+2021-03-17 09:40:16,532:71 - no differences between db ipam and mongo!
+2021-03-17 09:40:16,532:94 - None action matched with consts
+2021-03-17 09:40:46,565:71 - no differences between db ipam and mongo!
+2021-03-17 09:40:46,565:94 - None action matched with consts
+2021-03-17 09:41:16,571:71 - no differences between db ipam and mongo!
+2021-03-17 09:41:16,572:94 - None action matched with consts
+2021-03-17 09:41:46,608:80 - there is inconsistency in the db mongo, removed the subnet: 179.49.251.0/25
+2021-03-17 09:41:46,652:57 - save in networs_list and restart fastnetmon
+2021-03-17 09:41:46,653:84 - no differences from db Ipam to Mongo!
+2021-03-17 09:42:16,629:71 - no differences between db ipam and mongo!
+2021-03-17 09:42:16,629:94 - None action matched with consts
+2021-03-17 09:42:46,677:77 - no differences from db mongo to Ipam!
+2021-03-17 09:42:46,695:91 - Savo a rede {'asn': '271221', 'net': '179.49.249.0/24', 'hop': '10.1.0.2', '_id': ObjectId('6052318680e9b89e68373dbd')} mongo!
+2021-03-17 09:42:46,708:91 - Savo a rede {'asn': '52558', 'net': '177.85.188.0/24', 'hop': '10.1.0.2', '_id': ObjectId('6052318680e9b89e68373dbe')} mongo!
+2021-03-17 09:42:46,722:91 - Savo a rede {'asn': '271221', 'net': '179.49.249.0/27', 'hop': '10.1.0.2', '_id': ObjectId('6052318680e9b89e68373dbf')} mongo!
+2021-03-17 09:42:46,737:91 - Savo a rede {'asn': '52558', 'net': '177.85.189.0/24', 'hop': '10.1.0.2', '_id': ObjectId('6052318680e9b89e68373dc0')} mongo!
+2021-03-17 09:42:46,751:91 - Savo a rede {'asn': '52558', 'net': '177.85.190.0/24', 'hop': '10.1.0.2', '_id': ObjectId('6052318680e9b89e68373dc1')} mongo!
+2021-03-17 09:42:46,766:91 - Savo a rede {'asn': '271221', 'net': '179.49.251.0/24', 'hop': '10.1.0.2', '_id': ObjectId('6052318680e9b89e68373dc2')} mongo!
+2021-03-17 09:42:46,780:91 - Savo a rede {'asn': '271221', 'net': '2804:781c:1::1c/126', 'hop': '10.1.0.2', '_id': ObjectId('6052318680e9b89e68373dc3')} mongo!
+2021-03-17 09:42:46,794:91 - Savo a rede {'asn': '52558', 'net': '177.85.188.0/30', 'hop': '10.1.0.2', '_id': ObjectId('6052318680e9b89e68373dc4')} mongo!
+2021-03-17 09:42:46,809:91 - Savo a rede {'asn': '271221', 'net': '179.49.248.0/24', 'hop': '10.1.0.2', '_id': ObjectId('6052318680e9b89e68373dc5')} mongo!
+2021-03-17 09:42:46,824:91 - Savo a rede {'asn': '271221', 'net': '2804:781c::/48', 'hop': '10.1.0.2', '_id': ObjectId('6052318680e9b89e68373dc6')} mongo!
+2021-03-17 09:42:46,837:91 - Savo a rede {'asn': '52558', 'net': '177.85.191.0/24', 'hop': '10.1.0.2', '_id': ObjectId('6052318680e9b89e68373dc7')} mongo!
+2021-03-17 09:42:46,851:91 - Savo a rede {'asn': '52558', 'net': '177.85.189.64/26', 'hop': '10.1.0.2', '_id': ObjectId('6052318680e9b89e68373dc8')} mongo!
+2021-03-17 09:42:46,869:91 - Savo a rede {'asn': '271221', 'net': '179.49.250.0/24', 'hop': '10.1.0.2', '_id': ObjectId('6052318680e9b89e68373dc9')} mongo!
+2021-03-17 09:42:46,884:91 - Savo a rede {'asn': '271221', 'net': '2804:781c::/32', 'hop': '10.1.0.2', '_id': ObjectId('6052318680e9b89e68373dca')} mongo!
+2021-03-17 09:42:46,898:91 - Savo a rede {'asn': '52558', 'net': '2804:cd4::/32', 'hop': '10.1.0.2', '_id': ObjectId('6052318680e9b89e68373dcb')} mongo!
+2021-03-17 09:42:46,946:57 - save in networs_list and restart fastnetmon
+2021-03-17 09:43:16,671:71 - no differences between db ipam and mongo!
+2021-03-17 09:43:16,671:94 - None action matched with consts
+2021-03-17 09:43:46,713:71 - no differences between db ipam and mongo!
+2021-03-17 09:43:46,713:94 - None action matched with consts
+2021-03-17 09:44:16,707:71 - no differences between db ipam and mongo!
+2021-03-17 09:44:16,707:94 - None action matched with consts
+2021-03-17 09:44:46,742:71 - no differences between db ipam and mongo!
+2021-03-17 09:44:46,742:94 - None action matched with consts
+2021-03-17 09:45:16,772:71 - no differences between db ipam and mongo!
+2021-03-17 09:45:16,772:94 - None action matched with consts
+2021-03-17 09:45:46,800:71 - no differences between db ipam and mongo!
+2021-03-17 09:45:46,800:94 - None action matched with consts
+2021-03-17 09:46:16,833:71 - no differences between db ipam and mongo!
+2021-03-17 09:46:16,834:94 - None action matched with consts
+2021-03-17 09:46:46,861:71 - no differences between db ipam and mongo!
+2021-03-17 09:46:46,861:94 - None action matched with consts
+2021-03-17 09:47:16,905:71 - no differences between db ipam and mongo!
+2021-03-17 09:47:16,905:94 - None action matched with consts
+2021-03-17 09:47:46,919:71 - no differences between db ipam and mongo!
+2021-03-17 09:47:46,919:94 - None action matched with consts
+2021-03-17 09:48:16,924:71 - no differences between db ipam and mongo!
+2021-03-17 09:48:16,924:94 - None action matched with consts
+2021-03-17 09:48:46,968:71 - no differences between db ipam and mongo!
+2021-03-17 09:48:46,969:94 - None action matched with consts
+2021-03-17 09:49:16,998:71 - no differences between db ipam and mongo!
+2021-03-17 09:49:16,998:94 - None action matched with consts
+2021-03-17 09:49:47,027:71 - no differences between db ipam and mongo!
+2021-03-17 09:49:47,027:94 - None action matched with consts
+2021-03-17 09:50:17,039:71 - no differences between db ipam and mongo!
+2021-03-17 09:50:17,039:94 - None action matched with consts
+2021-03-17 09:50:47,068:71 - no differences between db ipam and mongo!
+2021-03-17 09:50:47,068:94 - None action matched with consts
+2021-03-17 09:51:17,078:71 - no differences between db ipam and mongo!
+2021-03-17 09:51:17,078:94 - None action matched with consts
+2021-03-17 09:51:47,114:71 - no differences between db ipam and mongo!
+2021-03-17 09:51:47,114:94 - None action matched with consts
+2021-03-17 09:52:17,151:71 - no differences between db ipam and mongo!
+2021-03-17 09:52:17,151:94 - None action matched with consts
+2021-03-17 09:52:47,170:71 - no differences between db ipam and mongo!
+2021-03-17 09:52:47,170:94 - None action matched with consts
+2021-03-17 09:53:17,193:71 - no differences between db ipam and mongo!
+2021-03-17 09:53:17,193:94 - None action matched with consts
+2021-03-17 09:53:47,231:71 - no differences between db ipam and mongo!
+2021-03-17 09:53:47,231:94 - None action matched with consts
+2021-03-17 09:54:17,237:71 - no differences between db ipam and mongo!
+2021-03-17 09:54:17,237:94 - None action matched with consts
