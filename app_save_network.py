@@ -69,7 +69,6 @@ def main():
         s1 = list(set(r2) ^ set(r1))
         if len(s1) == 0:
             logging.info('no differences between db ipam and mongo!')
-#            raise SystemExit
         if len(s1) >= 1:
             s2 = list(set(r2) - set(r1))
             s3 = list(set(r1) - set(r2))
@@ -82,7 +81,6 @@ def main():
                 on_save_file()       
             if len(s2) == 0:
                 logging.info('no differences from db Ipam to Mongo!') 
-#                raise SystemExit
             if len(s2) >= 1:
                 for z in s2:
                     subneting_ipam = QueryIpamSub()

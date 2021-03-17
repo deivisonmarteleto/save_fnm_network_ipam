@@ -2,7 +2,7 @@
 
 from datetime import datetime
 import pymongo
-from bson.son import SON
+
 
 #VARIAVEIS
 
